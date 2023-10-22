@@ -1,0 +1,62 @@
+.offerPannel{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offerPannel .offerBoard{
+    width: 80%;
+    background-color: rgb(240, 236, 232);
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.offerBoard .offerBox{
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 10px;
+}
+.offerBoard .offerBox .heading{
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    background-color: hwb(0 40% 0%);
+    box-sizing: border-box;
+    padding: 5px;
+    align-items: center;
+    color: aliceblue;
+}
+.offerBoard .offerBox .heading img{
+    padding: 0 15px 0 0;
+
+}
+.offerBoard .offerBox .title{
+    width: 100%;
+    text-align: center;
+    font-size: 19px;
+    padding: 10px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.offerBoard .offerBox .notice{
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offerBoard .offerBox .date{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 12px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

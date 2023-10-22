@@ -1,0 +1,50 @@
+/* Add CSS styles for your table */
+.dashboardform {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+  
+  .dashboardform th, .dashboardform td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .dashboardform th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .dashboardform tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .dashboardform tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  
+  .dashboardform tr:hover {
+    background-color: #dddddd;
+  }
+  
+  /* Additional CSS styles can be added here */
+  .navbar {
+    background-color: #4283d4;
+    overflow: hidden;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  

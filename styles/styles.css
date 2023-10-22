@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  form {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .form-row label {
+    flex-basis: 20%;
+    text-align: right;
+  }
+  
+  .form-row input, .form-row select, .form-row textarea {
+    flex-basis: 65%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .payment-method {
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  .card-details {
+    margin-top: 15px;
+  }
+  
+  .form-buttons {
+    text-align: center;
+  }
+  
+  input[type="submit"], input[type="reset"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #45a049;
+  }
+  
+        /* Navbar CSS */
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        

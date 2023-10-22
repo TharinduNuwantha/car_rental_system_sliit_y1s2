@@ -1,0 +1,54 @@
+.cover-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cover-container .table{
+    width: 80%;
+    margin-top: 50px;
+}
+.cover-container .table table{
+    width: 100%;
+    
+}
+.cover-container .table table tr{
+    background-color: #fdffe0;
+}
+.cover-container .table table th{
+    background-color: rgb(255, 158, 12);
+    color: #fdffe0;
+    padding: 10px;
+}
+.cover-container .table table td,.cover-container .table table td{
+    padding: 5px;
+    border: 1px solid black;
+}
+.cover-container .table table td:nth-child(3),.cover-container .table table td:nth-child(4){
+    text-align: center;
+}
+.cover-container .table table tr td button{
+    border: none;
+    padding: 5px 20px;
+}
+.cover-container .table table tr td button.rdt{
+    background-color: rgb(15, 64, 38);
+    color: #fdffe0;
+}
+.cover-container .table table tr td button.dell{
+    background-color: rgb(255, 55, 55);
+    color: #fdffe0;
+}
+.newUpBtn{
+    
+    padding: 10px 0;
+}
+.newUpBtn button{
+    border: none;
+    background: rgb(190, 118, 3);;
+    color: #fdffe0;
+    padding: 10px 25px;
+}
+
+
+

@@ -1,0 +1,240 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+body{
+    background: #ECE9E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.top-pannel-main{
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.top-pannel{
+    width: 80%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.top-pannel .pannel-box{
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    border: 1px solid black;
+    border: 25px;
+    padding: 10px;
+}
+.top-pannel .pannel-box .number-row{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.top-pannel .pannel-box .number-row .nm{
+    margin: 10px;
+    width: 30px;
+    background-color: rgb(241, 8, 74);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-pannel .pannel-box .number-row .nm1{
+    background-color: rgb(11, 125, 47);
+}
+.top-pannel .pannel-box .number-row .nm p{
+    padding: 5px;
+    color: aliceblue;
+    
+}
+.top-pannel .pannel-box .img-row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-pannel .pannel-box .img-row img{
+    width: 75px;
+    padding: 5px 0;
+}
+.top-pannel .pannel-box span{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff9603;
+}
+.top-pannel .pannel-box span p{
+    font-size: 15px;
+    color: rgb(35, 35, 35);
+    padding: 5px 0;
+    color: rgb(255, 255, 255);
+}
+.offers{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+}
+.offers .offer-form{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offers .offer-form form span:first-child{
+    background-color: rebeccapurple;
+} 
+.offers .offer-form form{
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 25px;
+    background-color:rgb(255, 255, 255) ;
+
+}
+.offers .offer-form form .form-name{
+    background-color: rgb(33, 33, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.offers .offer-form form .form-name p{
+    font-size: 25px;
+    color: #ffffff;
+    padding: 10px 0;
+    font-weight: bold;
+}
+.offers .offer-form form span h1{
+   
+    color: #FFFFFF !important;
+    text-align: center;
+    
+}
+.offers .offer-form form span{
+    width: 102%;
+    margin: 100px 0;
+            
+}
+.offers .offer-form form input{
+    width: 100%;
+    border: 1px solid rebeccapurple;
+}
+.offers .offer-form form span h1{
+    color: rgb(28, 28, 28);
+    padding: 5px 0 25px 0;
+}
+.offers .offer-form form span input,select{
+    padding: 10px;
+    box-sizing: border-box;  
+    margin: 10px 0;  
+}
+
+.offers .offer-form form span textarea{
+    height: 200px;
+    width: 100%;
+
+}
+.offers .offer-form form span select{
+    width: 100%;
+    border: 1px solid black;
+}
+.offers .offer-form form span button{
+    width: 100%;
+    border: none;
+    background-color: #ff9603;
+    color: aliceblue;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 25px 0 10px 0;
+}
+.ps-offer-main{
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ps-offer-main .ps-offer{
+    width: 80%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.ps-offer-main .ps-offer .offer-box{
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    border: 1px solid black;
+    border: 25px;
+    padding: 10px;
+    color: #3e3e3e;
+}
+.ps-offer-main .ps-offer .offer-box .title{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #fffbfb;
+    border-bottom: 1px solid black;
+}
+.ps-offer-main .ps-offer .offer-box .of-content{
+    padding: 15px 10px;
+    width: 300px;
+}
+.ps-offer-main .ps-offer .offer-box .buttons{
+    padding: 15px;
+    
+}
+.ps-offer-main .ps-offer .offer-box .buttons{
+    text-decoration: none;
+}
+.ps-offer-main .ps-offer .offer-box button{
+    width: 100%;
+    padding: 7px 0;
+    margin: 3px 0;
+    border: none;
+    background: none;
+    color: #ECE9E6;
+}
+.ps-offer-main .ps-offer .offer-box  button:nth-child(1){
+    background-color: rgb(69, 101, 231);
+}
+.ps-offer-main .ps-offer .offer-box button.del{
+    background-color: rgb(255, 37, 37);
+}
+.errors{
+    width: 100%;
+    background-color: #EA4335;
+    box-sizing: border-box;
+    padding: 5px;
+    color: #ECE9E6;
+}
+.errors p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+.errors ul{
+    list-style: none;
+}
+.date{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 11px;
+    padding: 5px 20px 0 0;
+}

@@ -1,0 +1,616 @@
+/* commen css area start */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+Sinhala:wght@900&family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+Sinhala:wght@900&family=Roboto:wght@500&family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100%;
+  margin: auto;
+}
+.active{
+    border-bottom: 2px solid #ffb347;
+}
+.main-buttons{
+    padding: 10px 35px;
+    border: none;
+    background-color: #ff9603;
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+.main-buttons:hover{
+    background-color: #ffcc33;
+}
+/* commen css area End */
+
+
+/*--------- top nav start ----------------*/
+
+nav{
+    width: 100vw;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(57, 57, 57);
+    color: rgb(254, 254, 254);
+    -webkit-box-shadow: 0px 1px 21px 6px rgba(0,0,0,0.41); 
+    box-shadow: 0px 1px 21px 6px rgba(0,0,0,0.41);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+nav .nav{
+    width: 90%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+nav .nav .left-links ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+nav .nav .left-links ul li{
+    margin: 0 10px;
+}
+nav .nav .left-links ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);  
+    transition: 0.3s ease-in-out; 
+}
+nav .nav .logo p{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+}
+nav .nav .top-nav-right-buttons  a,nav .nav .top-nav-left-buttons button a{
+    text-decoration: none;
+    color: aliceblue;
+}
+nav .nav .top-nav-right-buttons button,.mobile-nav .mb-nav-box button{
+    padding: 8px 20px;
+    border: none;
+    background: -webkit-linear-gradient(to right, #ffcc33, #ffb347);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffcc33, #ffb347); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #ffb347;  /* fallback for old browsers */
+    color: rgb(0, 0, 0) !important;
+    margin: 0 0 0 5px;
+    transition: 0.3s ease-in-out;
+}
+nav .nav .top-nav-right-buttons button a,.mobile-nav .mb-nav-box button a{
+    color: black;
+}
+nav .nav  a:hover,nav .nav .left-links ul li a:hover{
+    color: rgb(255, 158, 12);
+}
+nav .nav .top-nav-right-buttons button:hover,.mobile-nav .mb-nav-box button:hover{
+    background-color: #ff9603;
+}
+nav .nav img.bars{
+    display: none;
+}
+/* ----------------- top nav end ------------ */
+
+/*------------------ mobile nav Start --------*/
+.mobile-nav{
+    
+    background-color: rgb(57, 57, 57);    
+    /* background-color: rgb(57, 57, 57);     */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 65px;
+    left: -200%;
+    z-index: 100;
+    transition: 0.5s ease-in-out;
+}
+.mobile-nav .mb-nav-box{
+margin-top: 35px;
+}
+
+.mobile-nav .mb-nav-box .mobile-nav-logo{
+    color: aliceblue;
+    font-family:'Bebas Neue', sans-serif;
+    font-size: 30px;
+    padding: 3px 0;
+    border-bottom: 3px solid rgb(255, 158, 12);
+    
+}
+.mobile-nav .mb-nav-box ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 25px; 
+}
+.mobile-nav .mb-nav-box ul li{
+    padding: 15px 0;
+}
+.mobile-nav .mb-nav-box ul li a{
+    color: white;
+    font-size: 16px;
+}
+
+/*------------------ mobile nav End --------*/
+
+/*---------------- body-content Start ----------------*/
+
+/*---------------- body-content END ----------------*/
+.body-content{
+  padding: 0 100px;
+
+    margin-top:50px;
+}
+
+/*---------- Top Banner Start----------------*/
+
+.banner{
+    width: 100%;
+    background-image: url('../img/main/car_high.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    backdrop-filter: blur(15px);
+}
+.banner .banner-hedding{
+    width: 100%;
+    text-align: center;
+    padding: 35px 0 0 0;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+.banner .banner-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    width: 100%;
+
+}
+.banner .banner-search .search-box-cover{
+    width: 40%;
+}
+.banner .banner-search  .srach-box-top{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    font-size: 13px;
+    padding: 10px 25px;
+}
+.banner .banner-search  .srach-box-top p{
+    margin:2px 8px;
+}
+.banner .banner-search .search-box{
+    width: 100%;
+}
+.banner .banner-search .search-box input{
+    width: 85%;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid black;
+}
+
+.banner .banner-search .banner-date input{
+    width: 200px;
+    padding: 10px;
+    margin-top: 35px;
+    border: 1px solid black;
+}
+.banner .banner-search .banner-button{
+    padding: 0 15px;
+}
+.banner .banner-search .banner-button button{
+    padding: 10px 35px;
+    margin-top: 35px;
+    border: none;
+    background-color: #ff9603;
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+.banner .banner-search .banner-button button:hover{
+    background-color: #ffcc33;
+}
+.banner .text-banner{
+    margin-top: 40px;
+    padding: 45px 10px;
+    text-align: center;
+}
+.banner .text-banner p{
+    padding: 15px  25px;
+    font-size: 15px;
+}
+.banner .text-banner button{
+    padding: 10px 15px;
+    background: none;
+    border: 1px solid rgb(255, 255, 255);
+    transition: all 0.5s ease-in-out;
+    color: white;
+}
+.banner .text-banner button:first-child:hover{
+    border: 1px solid rgb(255, 158, 12);
+    color: rgb(255, 158, 12);
+}
+.banner .text-banner button:last-child:hover{
+    border: 1px solid rgb(255, 35, 15);
+    color: rgb(255, 35, 15);
+}
+
+.body-content .search-box{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.body-content .search-box input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid black;
+}
+/*---------- Top Banner END----------------*/
+
+/*---------------  Featured Vehical Start ---------------*/
+
+.home-items{
+    width: 100%;
+    color: #212121;
+
+    
+}
+.home-items span.Heading{
+    font-size: 20px;
+    color: #040404;
+    font-family: 'Roboto', sans-serif;
+}
+.home-items .home-item-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px 0 0 0;
+}
+.home-items .home-item-list .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    background-color: #eaeaea;
+    margin: 5px 0;
+    flex-wrap: wrap;
+}
+.home-items .home-item-list  .left{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 75%;
+
+}
+.home-items .home-item-list  .left p{
+    padding: 10px;
+}
+
+.home-items .home-item-list .right{
+    width: 25%;
+}
+.home-items .home-item-list  .right{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+.home-items .home-item-list .nums {
+    padding: 10px 20px 10px 10px;
+        
+}
+.home-items .home-item-list  .nums p:first-child{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.home-items .home-item-list  .right .buttns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.home-items .home-item-list  .right .buttns button{
+    padding: 10px 10px;
+    width: 100px;
+    border: none;
+    background: #ff9603;
+    color: #000000;
+    margin: 5px 0;
+}
+/*---------------  Featured Vehical END ---------------*/
+
+/* ----------------- fv-container start ------------*/
+.fv-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fv-container .fv-grid{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+
+}
+.fv-container .fv-grid .imgPrice{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.fv-container .fv-grid .imgPrice .buttons{
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+.fv-container .fv-grid .imgPrice .buttons button{
+   margin: 5px 0;
+}
+/* ----------------- fv-container END ------------*/
+
+/*---------------------- second bar start -----------*/
+.secon-bar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secon-bar .bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.secon-bar .bar button{
+    margin: 15px 0;
+}
+.secon-bar .bar span{
+    width: 80%;
+    padding: 55px 0;
+}
+
+/*---------------------- second bar END -----------*/
+
+/* ------------------------ profiles Start -----------*/
+.profiels{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #212121;
+}
+.profile-cover{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+
+    flex-wrap: wrap;
+}
+.profiels .profile-cover .inside-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}   
+.profiels .profile-cover .inside-profile img{
+    width: 100px;
+}
+.profiels .profile-cover .inside-profile span h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* ------------------------ profiles END -----------*/
+
+/*---------- Footer Start ----------*/
+
+footer{
+    width: 100%;
+    background-color: #000000;
+    color: #eaeaea;
+    font-size: 15px;
+}
+
+footer .footer-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 15px 1px;
+    margin: 25px 0 0 0;
+    bottom: 0;
+}
+footer .footer-content p.title{
+    font-size: 15px;
+    font-weight: bolder;
+}
+footer .footer-content .ft-col-1{
+    width: 30%;
+    padding: 15px;
+    margin: 15px;
+}
+footer .footer-content ul {
+    padding: 10px 0;
+    font-size: 13px;
+}
+footer .footer-content ul li a{
+    color: #eaeaea;
+}
+footer .footer-content .ft-col-1 h1{
+    width: 170px;
+    border-bottom: 2px solid rgb(255, 158, 12);
+}
+footer .footer-content .ft-col-1 p{
+    font-size: 13px;
+    margin: 5px 0;
+}
+footer .footer-content .ft-col-2{
+    width: 15%;
+}
+footer .footer-content .ft-col-3{
+    width: 15%;
+}
+footer .footer-content .ft-col-4{
+    width: 15%;
+}
+footer .footer-content .ft-col-5{
+    width: 15%;
+}
+footer .ft-col-1,footer .ft-col-2 ,footer .ft-col-3 ,footer .ft-col-4 ,footer .ft-col-5{
+    margin-top: 10px;
+}
+/*---------- Footer End ----------*/
+
+/* --------- forter-bar ----------*/
+.forter-bar{
+    width: 100%;
+    background-color: #212121;
+    color: #eaeaea;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    padding: 5px 0;
+}
+/* --------- forter-bar ----------*/
+
+/* ------------ media querys  for mobile nav start---------------  */
+
+@media screen and (max-width:790px){
+    nav .nav .left-links{
+        display: none;
+    }
+    nav .nav .top-nav-right-buttons{
+        display: none;
+    }
+    nav .nav img.bars{
+        display: block;
+    }
+}
+
+/* ------------ media querys  for mobile nav END---------------  */
+
+/*------------- banner responsive ---------------*/
+@media screen and (max-width:530px){
+    footer .footer-content {
+
+    }
+    footer .footer-content .ft-col-1{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    footer .footer-content .ft-col-5{
+        display: none;
+    }
+}
+@media screen and (max-width:750px){
+    .banner .banner-search{
+        flex-direction: column;
+    }
+    .banner .banner-search .search-box-cover{
+        width: 100%;
+        text-align: center;
+    }
+    .banner .banner-search .banner-date{
+        width: 100%;
+        text-align: center;
+
+    }
+    .banner .banner-search .banner-date input{
+        width: 85%;
+        border-radius: 25px;
+        margin: 15px 0;
+    }
+    .banner .banner-search .banner-button button{
+        margin-top: 15px;
+        padding: 10px 45px;
+    }
+    .banner .text-banner{
+        margin-top: 20px;
+        padding: 5px 10px 25px 10px;
+    }
+    .banner .text-banner h2,.banner .text-banner p{
+        display: none;
+    }
+}
+/*------------- banner responsive END---------------*/
+
+
+/*------------------- responsive Featured  vehical Start ---- */
+
+@media screen and (max-width:800px){
+    .body-content{
+        padding: 0 0px;
+    }
+        /* .home-items .home-item-list  .left img{
+        width: 75%;
+    }
+    .home-items .home-item-list  .left p{
+        padding: 10px;
+        width: 25%;
+    } */
+    .home-items .home-item-list .row{
+       
+     
+    }
+    .home-items .home-item-list .left{
+        flex-direction: column;
+        width: 50%;
+    }
+    .home-items .home-item-list .left img{
+        width: 100%;
+    }
+    .home-items .home-item-list .right{
+        width: 50%;
+    }
+
+
+}
+@media screen and (max-width:990px){
+    footer .ft-col-2 ,footer .ft-col-3 ,footer .ft-col-4{
+        display: none;
+    } 
+    footer .footer-content{
+        justify-content: center;
+    }
+    footer .footer-content .ft-col-5{
+        /* padding: 0 25px; */
+    }
+    footer .footer-content .ft-col-1{
+        width: 50%;
+    }
+    footer .footer-content .ft-col-5{
+        width: 50%;
+        margin-top: 45px;
+    }
+}
+
+@media screen and (max-width:1030px){
+    .home-items .home-item-list .row{
+        width: 100%; 
+    }
+    .body-content{
+        padding: 0 0px;
+    }
+}
+
+/*------------------- responsive Featured  vehical END ---- */

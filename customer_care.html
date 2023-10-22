@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarHireHub.com</title>
+    <link rel="stylesheet" href="assets/css/header_footer.css">
+    <link rel="stylesheet" href="css/user.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <title>Customer Care Page</title>
+    <style>
+        /* CSS for shadowed bordered divs */
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .shadowed-box {
+            border: 2px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px;
+            width: 50%;
+            height: 600px;
+            background-color: #F5F5F5; /* Use it as a background color */
+            color: black; /* Use it for text color */
+        }  
+
+
+        .form-label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .form-input {
+            width: 80%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 20px;
+        }
+        button {
+            background-color: #333333;
+            width: 200px;
+            height: 50px;
+            border-radius: 45px;
+            border-color: transparent;
+            color: white;
+        }
+        .title_main{
+            border: 2px solid #ccc;
+            width:400px;
+            height: 100px;
+            background-color: #E5E5E5;
+            border-radius: 18px;
+            margin-top: 80px;
+        }
+        .title_main h1{
+            margin-top: 25px;
+        }
+    </style>
+</head>
+<body style="background-color: #8A8975">
+            <nav>
+            
+                <div class="nav">
+                <div class="left-links">
+                    <ul>
+                        <li class="active"><a href="index.php">Home</a></li>
+                        <li><a href="aboutUs.php">About</a></li>
+                        <li><a href="customer_care.html">Contact</a></li>
+                        <li><a href="faq.php">FAQs</a></li>
+                    </ul> <!--left-links-->  
+                </div>
+
+                <div class="logo">
+                    <p>CarHireHub.com</p>
+                </div><!-- logo -->
+
+                <div class="top-nav-right-buttons">
+                   
+                </div>
+                <img src="img/main/bars-50.png" alt="bars" class="bars" id="bars" width="37px" height="37px" >
+            </div> 
+            
+        </nav>
+
+        <!-- top navigation bar End -->
+
+        <!-- mobile nav Start-->
+
+        <div class="mobile-nav" id="mobileNav">
+            <div class="mb-nav-box">
+                <p class="mobile-nav-logo">CarHireHub.com</p>
+                <ul>
+                        <li class=""><a href="index.php">Home</a></li>
+                        <li><a href="aboutUs.php">About</a></li>
+                        <li><a href="customer_care.html">Contact</a></li>
+                        <li><a href="faq.php">FAQs</a></li>                    
+                        <li><a href="login.php">SIGN IN</a></li>                    
+                                        
+                </ul>
+            </div>
+        </div>
+
+
+   <center><div class="title_main"> <h1><b>CONTACT US ..</b></h1></div></center>
+
+    <div class="container">
+        <div class="shadowed-box">
+            <center><h2>Customer Care</h2></center>
+           <center> <img src="assets/img/contactus.jpg" alt="Support Image" width=" 300px" height="200px" style="margin-top: 20px; border-radius: 15px"> </center>
+            <p style="margin-top: 40px ;align-content: center;">
+
+                
+            Customer care is a pivotal component of every successful business. It involves attentively addressing customer inquiries, resolving issues, and ensuring a seamless experience. Exceptional customer care focuses on empathy and timely responses, nurturing customer loyalty and trust. It encompasses services like answering questions, providing support, and complaint resolution. A dedicated customer care team is fundamental to a company's reputation and long-term prosperity.</p>
+            
+            <center><button style="margin-top: 40px">Contact Support</button></center>
+        </div>
+
+        <div class="shadowed-box">
+            <h2>Share your ideas with us</h2>
+            <p>We value your Ideas. Share your thoughts and suggestions with us.</p>
+
+            <form method="post" action="message_insert.php">
+                <label class="form-label" for="firstname">First Name:</label>
+                <input class="form-input" type="text" id="firstname" name="firstname" required>
+
+                <label class="form-label" for="lastname">Last Name:</label>
+                <input class="form-input" type="text" id="lastname" name="lastname" required>
+
+                <label class="form-label" for="email">Email:</label>
+                <input class="form-input" type="email" id="email" name="email" required>
+
+                <label class="form-label" for="message">Message:</label>
+                <textarea class="form-input" id="message" name="message" rows="4" required></textarea>
+
+                <center><button type="submit" style="margin-top: 10px;">Send Feedback</button></center>
+            </form>
+        </div>
+    </div>
+
+    <!-- footer -->
+  <footer>
+            <div class="footer-content">
+                <div class="ft-col-1">
+                    <h1>CarHireHub</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At maiores autem ad reprehenderit magni praesentium similique delectus odit architecto asperiores quisquam, cum iure, consectetur laboriosam recusandae fuga ducimus aliquam quae!</p>
+        
+                </div>
+                <div class="ft-col-2">
+                    <p class="title">Luxury Vehicals</p>
+                    <ul>
+                        <li><a href="#">Toyota Premio</a></li>
+                        <li><a href="#">Toyota TRJ 120 Prado</a></li>
+                        <li><a href="#">Toyota Avanza 2017</a></li>
+                        <li><a href="#">Toyota Avanza 2017</a></li>
+                        <li><a href="#">Toyota Hilux Cab</a></li>
+                        <li><a href="#">Toyota TRJ 150 Prado</a></li>
+                        <li><a href="#">More</a></li>
+                    </ul>
+                </div>
+                <div class="ft-col-3">
+                    <p class="title">Mini cars</p>
+                    <ul>
+                        <li><a href="#">Nissan March</a></li>
+                        <li><a href="#">Suzuki japan Alto</a></li>
+                    </ul>
+                    <p class="title">Vans</p>
+                    <ul>
+                        <li><a href="#">Suzuki Every Buddy van Auto</a></li>
+                    </ul>
+                </div>
+                <div class="ft-col-4">
+                    <p class="title">Standard Vehicle</p>
+                    <ul>
+                        <li><a href="#">Suzuki Swift</a></li>
+                        <li><a href="#">Toyota Vitz</a></li>
+                        <li><a href="#">Toyota Avanza</a></li>
+                        <li><a href="#">Toyota Allion</a></li>
+                        <li><a href="#">Toyota Premio</a></li>
+                    </ul>
+                </div>
+                <div class="ft-col-5">
+                    <p class="title">Contact US</p>
+                    <ul>
+                        <li><strong>Address: </strong>56,Kadawatha Roade, Malabe, Sathara Mawatha</li>
+                        <li><strong>TEL: </strong>011 568616</li>
+                        <li><strong>Mobile: </strong>0715893934 / 0775893934</li>
+                        <li><strong>Email: </strong><a href="#">info@carhurehub.com</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <div class="forter-bar">
+            <p>copyright &copy 2023 carhurehub.com</p>
+        </div> 
+        <!-- footer Start end-->
+        <script src="js/script.js"></script>    
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+        <script src="js/Jqury/jquery.counterup.min.js"></script>
+        <script>
+              jQuery(document).ready(function($){
+                $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+        });
+              });  
+        </script>
+        </body>
+        </html>
